@@ -1,16 +1,60 @@
-.robo{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("download (4).jpg");
+    background-size: cover;
+    background-position: center;
 }
-.first{
-    width: 100px;
-    height: 100px;
+.divbar{
+    width: 420px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 30px 40px;
 }
-.second{
-    width: 100px;
-    height: 100px;
+.divbar h1{
+    font-size: 36px;
+    text-align: center;
 }
-.third{
-    width: 100px;
-    height: 100px;
+.divbar .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.divbar .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.divbar .btn{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
 }
